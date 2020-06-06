@@ -1,10 +1,7 @@
-
-var person = {
-  firstName: "Julian Bolt",
-  Hngid: "HNG-03574",
-  language: "JavaScript",
-  email: "infinixbolt@gmail.com"
+var personal = {
+  Name: "Julian Bolt",
+  HNGID: "HNG-03574",
+  Language: "JavaScript",
+  Email: "infinixbolt@gmail.com"
 };
-
-console.log("Hello World, This is " + person.firstName + " with HNGi7 ID " + person.Hngid + " and email " + person.email + " using " + person.language + " for stage 2 task");
-
+console.log("Hello World, this is " + personal.Name + " with HNGi7 ID " + personal.HNGID + " using " + personal.Language + " for stage 2 task and my email is " + personal.Email)
